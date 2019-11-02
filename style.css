@@ -1,0 +1,40 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  padding: 0.5em;
+  width: 200px;
+  height: 300px;
+  border: 5px solid black;
+  font-size: 20pt;
+  background-color: white;
+  margin: 0.5em;
+
+}
+.image {
+  border: 10px solid black;
+  float: right;
+  margin: 0.5em;
+}
+body {
+  background-image: url("https://media.giphy.com/media/4N1uvpBXkgQBiNkVf6/giphy.gif");
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+p {
+  font-size: 20pt;
+  border: 10px solid white;
+  width: 200px;
+  padding: 0.5em;
+  margin: 1em;
+  background-color: white;
+  border: 5px solid black;
+}
+.list {
+
+  color: black;
+}
